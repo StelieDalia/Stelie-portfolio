@@ -176,34 +176,34 @@ img{
 }
 
 /*===== HOME =====*/
-.home{
+.accueil{
     position: relative;
     background-color: var(--first-color);
     overflow: hidden;
 }
-.home__container{
+.accueil__container{
     height: calc(100vh - var(--header-height));
     row-gap: 5rem;
 }
-.home__title{
+.accueil__title{
     align-self: flex-end;
     font-size: 90px;
     color: var(--white-color);
     line-height: .8;
 }
-.home__title span{
+.accueil_title span{
     text-shadow: 0 20px 25px rgba(0,0,0,.5);
 }
-.home__scroll{
+.accueil__scroll{
     align-self: flex-end;
     padding-bottom: var(--mb-4);
 }
-.home__scroll-link{
+.accueil__scroll-link{
     writing-mode: vertical-lr;
     transform: rotate(-180deg);
     color: var(--white-color);
 }
-.home__img{
+.accueil__img{
     position: absolute;
     right: 10%;
     bottom: 0;
@@ -251,14 +251,14 @@ img{
 }
 
 /* ===== SKILLS =====*/
-.skills__container{
+.competences__container{
     row-gap: 2rem;
 }
-.skills__subtitle{
+.competences__subtitle{
     color: var(--first-color);
     margin-bottom: var(--mb-3);
 }
-.skills__name{
+.competences__name{
     display: inline-block;
     font-size: var(--small-font-size);
     margin-right: var(--mb-2);
@@ -267,11 +267,11 @@ img{
     background-color: var(--white-color);
     border-radius: .25rem;
 }
-.skills__name:hover{
+.competences__name:hover{
     background-color: var(--first-color);
     color: var(--white-color);
 }
-.skills__img img{
+.competences__img img{
     border-radius: .5rem;
 }
 
@@ -379,7 +379,7 @@ img{
 /* ===== MEDIA QUERIES =====*/
 /* For small devices */
 @media screen and (max-width: 320px) {
-  .home__img {
+  .accueil__img {
     width: 230px;
   }
 }
@@ -422,12 +422,12 @@ img{
         background-color: var(--white-color);
     }
 
-    .home__container{
+    .accueil__container{
         height: 100vh;
         grid-template-rows: 1.7fr 1fr;
         row-gap: 0;
     }
-    .home__img{
+    .accueil__img{
         width: 524px;
         right: 10%;
     }
@@ -446,7 +446,7 @@ img{
         width: 165px;
     }
 
-    .skills__container{
+    .competences__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
     }
@@ -480,10 +480,10 @@ img{
 
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
-    .home__container {
+    .accueil__container {
         height: 640px;
     }
-    .home__img {
+    .accueil__img {
         width: 500px;
         right: 24%;
     }

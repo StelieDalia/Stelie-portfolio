@@ -256,8 +256,8 @@ img{
         }
     }
 }
-/* ===== SKILLS =====*/
-.skills{
+/* ===== COMPETENCES =====*/
+.competences{
     &__container{
         row-gap: 2rem;
     }
@@ -397,7 +397,7 @@ img{
 /* ===== MEDIA QUERIES=====*/
 /* For small devices */
 @media screen and (max-width: 320px) {
-    .home__img{
+    .accueil__img{
         width: 230px;
     }
 }
@@ -444,7 +444,7 @@ img{
         background-color: var(--white-color);
     }
 
-    .home{
+    .accueil{
         &__container{
             height: 100vh;
             grid-template-rows: 1.7fr 1fr;
@@ -456,7 +456,7 @@ img{
         }
     }
 
-    .about{
+    .a-propos{
         &__container{
             grid-template-columns: repeat(2, 1fr);
             align-items: center;
@@ -472,7 +472,7 @@ img{
             }
         }
     }
-    .skills{
+    .competences{
         &__container{
             grid-template-columns: repeat(2,1fr);
             align-items: center;
@@ -513,7 +513,7 @@ img{
 
 /* For tall screens on mobiles y desktop*/
 @media screen and (min-height: 721px) {
-    .home{
+    .about{
         &__container{
             height: 640px;
         }
