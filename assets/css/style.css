@@ -242,12 +242,28 @@ img{
     display: block;
     margin-bottom: var(--mb-4);
 }
+.about__social{
+    display: flex;
+}
 .about__social-icon{
     font-size: 1.4rem;
     margin: 0 var(--mb-1);
 }
 .about__social-icon:hover{
     color: var(--first-color);
+}
+.about__social ul {
+    margin-left: 25%;
+    background-color: #730606;
+    width: 45%;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+span{
+    color: white;
 }
 
 /* ===== SKILLS =====*/
@@ -381,6 +397,8 @@ img{
 @media screen and (max-width: 320px) {
   .accueil__img {
     width: 230px;
+    height: 200px;
+    right: 3%;
   }
 }
 
